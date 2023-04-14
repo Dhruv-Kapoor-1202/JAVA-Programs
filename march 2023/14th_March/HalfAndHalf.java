@@ -19,21 +19,23 @@ class HalfAndHalf {
 			count++;
 			number = number / 10;
 		}
-		if (count % 2 == 0) {
-			return isEven;
-		}
-		else {
-			isEven = 1;
-			System.out.println("Enter A Valid Number!!!");
-			return isEven;
-		}
+		return count;
 	}
 	public static void main(String args[]) {
 		int a = getData();
-		int b = checkEven(a);
+		int count = checkEven(a);
 		System.out.println(b);
+		
+		if (count % 2 != 0) {
+			System.out.println("Enter a valid number!!!!!!!!!!!");
+		}
+		else {
+		int firstHalf[] = new int[count / 2];
+			int secHalf[] = new int[count / 2]; 
 
-		System.out.println("Hiiii");
+
+
+
 
 	}
 }
