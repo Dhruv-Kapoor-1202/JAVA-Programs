@@ -13,7 +13,7 @@ class Second {
 public class Ques {
     public static void main(String args[]) {
 
-        String ar[] = new String[10];
+        String ar[] = { " " };
 
         First.main(ar);
         Second.main(ar);
