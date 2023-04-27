@@ -20,10 +20,27 @@ public class ThisrdLargest {
         }
     }
 
+    public int logic(int array[]) {
+        // sorting the array;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[i] > array[j]) {
+                    int temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                }
+            }
+        }
+
+        return array[array.length - 3];
+    }
+
     public static void main(String[] args) {
         ThisrdLargest obj = new ThisrdLargest();
         int arr[] = obj.getArray();
-        obj.display(arr);
+        // obj.display(arr);
+        int third = obj.logic(arr);
+        System.out.println("\nThe Third largest in the given array is : " + third);
 
     }
 
