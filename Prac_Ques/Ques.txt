@@ -1,0 +1,132 @@
+Introduction
+Java programs:
+1. Program to add 2 nos by using command line input.
+2. To get and print int,char,long,float,double,boolean data types.
+3. Print the 3rd lagrest element into 1d array.
+4. To multiply 2 matrices.
+5. Program to implement the Garbage collection in java
+6. Program to implement the method overloading
+7. Program to implement the constr ovreloading
+8. Print the factorial of 100/500/1000
+========================================================
+Array
+1d Array Programs:
+- Getting and Printing 1d array.
+- Print the largest and smallest no into list
+- Print sum of all the nos
+- Sort the array into ascending and descending order
+- To check whether the given no is present into list or not.
+- Print the Sum of factorials of all the nos.
+- Print all the prime nos into the given 1d array.
+- Soft first half array into ascending order and second half array into descending
+order.
+- To remove the dulpilcate elements into the 1d array.
+===========================================================
+1d Arrays Programs:
+=================
+- Write a java program to insert the element into specific position into the given 1d Array.
+- To check whether the sum of all the prime nos into 1d array is even or odd.
+- To check whether the sum of all the ascii values of given 1d array of chars is palindrome or
+not.
+=================================================
+Inheritance
+ST1 : Syllabus upto Inheritance
+==========================
+Multilevel Inheritance Practice Questions:
+A->B->C
+1. first class : get 1d array of int
+second : sum of sums of all the digits at every position.
+third : display the result
+2. first class : get 1d array of char
+second class : remove all vowels
+third : display the result
+3. first class : Get 2d array.
+second class : sum of first column+first row
+third : display the result
+4. first class : get a char from user
+second class : sum of all the digits of its ascii value
+third class : display the result
+5. first class : get 2 one dim. arrays from user
+second class : merge both arrays into single array
+third class : display the result
+============================================================
+Multiple Inheritance Questions:
+==============================
+1. Write a prog in java to implement the Abstract class.
+2. Write a prog in java to implement the Interface
+3. Write a prog to implement the Indirect ref in inheritance.
+4. Write a prog in java to inherite one interface(first) and one class (second) into the third class.
+5. Write a prog to inherit first interface into second interface.
+===================================================
+Extras
+1. WAP to declare an array of size 10 and accept values through the user and display the
+values.
+2. WAP to accept 10 numbers in array and display the minimum.
+3. WAP to accept 10 numbers in an array and display the maximum.
+4. WAP to accept 5 numbers using array and count all positive numbers and display the counted
+value.
+5. WAP to accept 8 numbers using array and count all positive and negative numbers and
+display the
+counted value.
+6. WAP to accept 6 numbers using array and count all even and odd numbers and display the
+counting
+value.
+7. WAP to accept 10 numbers in an array and display the sum of even and odd numbers
+separately.
+8. WAP to accept 17 numbers in an array and print even numbers as a list and odd numbers as
+a separate
+list.
+9. WAP to accept individual run of a complete cricket team and display the final score and which
+player
+has done half century, century, else display only score.
+10. WAP to accept 10 numbers using array and copy it in second array and print the second
+array.
+11. WAP to accept 9 numbers using array and print the array in reverse order.
+12. WAP to accept 7 numbers using array and copy it in second array in reverse order and print
+the second
+array.
+13. WAP to accept 5 numbers using array and print the sum of all positive and negative
+numbers.
+14. WAP to accept 10 numbers using array and print the sum of all even numbers and odd
+numbers.
+15. WAP to accept n numbers in an array and print the highest and the lowest numbers among
+them.
+16. WAP to accept n numbers in an array and display and count all positive even numbers and
+negative
+odd numbers.
+17. WAP to accept values of n size in two different arrays and store their sum index wise in a
+third array.
+18. WAP to accept values of n size in two different arrays and store their product index wise in a
+third
+array.
+19. WAP to accept n values in two different arrays of same size and store it in one single array.
+20. WAP to accept m and n values in two different arrays of different size and store it in one
+single array.
+21. WAP to accept 5 numbers each in two different arrays and merge them in one single array
+of size 10.
+22. WAP to accept 5 numbers each in two different arrays and copy the first array in reverse
+order and the
+second array as usual.
+23. WAP to accept n numbers in array and copy it in another array in such a way that if the no.
+is positive,
+then the copied no. must be negative and vise versa.
+24. WAP to accept n numbers in two different arrays and store them in one single array in cross
+combed
+order.
+25. [LINEAR SEARCH] WAP to accept n numbers from the user in an array and accept another
+number
+in a variable and check the number is present in the array or not.
+26. WAP to accept n numbers from the user in an array and accept another number in a
+variable and print
+its frequency.
+27. WAP to accept n numbers in an array and another number and print the index no of all of its
+frequencies wherever found.
+28. [BUBBLE SORT ASC] WAP to accept n values in an array from the user and arrange the
+numbers in
+ascending order using BUBBLE SORT.
+29. [BUBBLE SORT DSC] WAP to accept n values in an array from the user and arrange the
+numbers in
+ascending order using BUBBLE SORT.
+30. [BINARY SEARCH] WAP to accept n numbers from the user in an array and accept another
+number
+in a variable and check the number is present in the array or not.
