@@ -12,6 +12,18 @@ class One implements Runnable {
     }
 
     public void run() {
+        try {
+            Thread.sleep(2000);
+        } catch (Exception e) {
+        }
+        System.out.print("Removing Vowel : ");
+
+        for (int i = 0; i < input.length(); i++) {
+            if (input.charAt(i) != 'a' && input.charAt(i) != 'e' && input.charAt(i) != 'i' && input.charAt(i) != 'o'
+                    && input.charAt(i) != 'u') {
+                System.out.print(input.charAt(i));
+            }
+        }
 
     }
 }
@@ -45,6 +57,12 @@ class Three implements Runnable {
 
     public void run() {
 
+        try {
+            Thread.sleep(2000);
+        } catch (Exception e) {
+        }
+        System.out.println("Descending: ");
+
         char charArray[] = input.toCharArray();
         Arrays.sort(charArray);
         String str = new String(charArray);
@@ -60,6 +78,8 @@ public class ThreeChild {
         Scanner obj = new Scanner(System.in);
         System.out.print("Enter string: ");
         String input = obj.nextLine();
+
+        new One(input);
 
         new Three(input);
     }
