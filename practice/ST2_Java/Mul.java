@@ -15,6 +15,7 @@ class Child implements Runnable {
     public void run() {
         int num = Integer.parseInt(str);
         System.out.println("The given string is : " + num);
+
     }
 }
 
@@ -23,9 +24,9 @@ public class Mul {
         Scanner obj = new Scanner(System.in);
 
         System.out.print("Enter number: ");
-        String str = obj.nextLine();
+        String str1 = obj.nextLine();
 
-        new Child(str);
+        new Child(str1);
 
     }
 }
