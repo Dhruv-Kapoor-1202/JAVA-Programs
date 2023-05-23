@@ -37,5 +37,7 @@ public class Student<T> {
 
         obj1.logic(st); // Generic Method
 
+        obj.close();
+
     }
 }
