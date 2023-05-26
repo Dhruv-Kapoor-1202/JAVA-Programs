@@ -12,19 +12,25 @@ public class GenDemo<T> {
     }
 
     public static void main(String args[]) {
-        Scanner obj = new Scanner(System.in);
+        // Scanner obj = new Scanner(System.in);
 
-        System.out.print("Enter a boolean: ");
-        boolean bool = obj.nextBoolean();
+        // System.out.print("Enter a boolean: ");
+        // boolean bool = obj.nextBoolean();
 
-        GenDemo<Boolean> obj1 = new GenDemo<Boolean>(bool);
+        Integer n = 10;
+        Integer n2 = 20;
+        Integer n3 = n + n2;
 
-        GenDemo<Character> obj2 = new GenDemo<Character>('C');
+        System.out.println(n3);
 
-        obj1.display();
-        obj2.display();
+        // GenDemo<Boolean> obj1 = new GenDemo<Boolean>(bool);
 
-        obj.close();
+        // GenDemo<Character> obj2 = new GenDemo<Character>('C');
+
+        // obj1.display();
+        // obj2.display();
+
+        // obj.close();
 
     }
 }
