@@ -45,7 +45,7 @@ class ReadData {
     ReadData() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dhruv", "root", "Scootergangboi456!");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dhruv", "root", "<thePassword>");
             System.out.println("Connection Established.");
 
             ps = con.prepareStatement("select * from login");
