@@ -25,6 +25,8 @@
    2. Roll Number
    3. City  
 Create an object of student class. And write this object into the given file ad also write the logic to read this object.  
+
+
 ```java
 class Student implements Serializable {
     String name
